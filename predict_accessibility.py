@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from shapely.geometry import mapping
 from utils import load_data, find_nearest_objects
 import joblib
+import os
 import pandas as pd
 import numpy as np
 
